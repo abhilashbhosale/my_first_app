@@ -1,0 +1,21 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+.venv/
+
+# Bytecode and Cache files
+__pycache__/
+*.pyc
+*.tmp             # Ignores generic temporary files
+
+# IDE and OS files
+.idea/  # PyCharm
+.vscode/ # VS Code
+.DS_Store # macOS
+*~
+
+# Project-Specific/Scratch Files (Add any file names you don't want to commit)
+# Added to ignore the files that slipped through earlier
+New Text Document.txt
+tests/New Text Document.txt
